@@ -95,6 +95,40 @@
 85. [Fraud.net](#85-fraudnet)
 86. [Dotfile](#86-dotfile)
 87. [Ekata (now Mastercard)](#87-ekata-now-mastercard)
+88. [Luminess](#88-luminess)
+89. [Docaposte](#89-docaposte)
+90. [IN Groupe (Imprimerie Nationale)](#90-in-groupe-imprimerie-nationale)
+91. [Netheos](#91-netheos)
+92. [Itesoft](#92-itesoft)
+93. [Tessi](#93-tessi)
+94. [Esker](#94-esker)
+95. [Yousign](#95-yousign)
+96. [Fourthline](#96-fourthline)
+97. [Fraugster](#97-fraugster)
+98. [Konfuzio](#98-konfuzio)
+99. [Passbase](#99-passbase)
+100. [Authada](#100-authada)
+101. [Verifai](#101-verifai)
+102. [Isabel Group](#102-isabel-group)
+103. [TrustBuilder](#103-trustbuilder)
+104. [KYC Spider](#104-kyc-spider)
+105. [SwissSign](#105-swisssign)
+106. [Procivis](#106-procivis)
+107. [ID-Pal](#107-id-pal)
+108. [iDenfy](#108-idenfy)
+109. [Dokobit](#109-dokobit)
+110. [Norbloc](#110-norbloc)
+111. [Trapets](#111-trapets)
+112. [ValidatedID](#112-validatedid)
+113. [Signaturit](#113-signaturit)
+114. [Namirial](#114-namirial)
+115. [Infocert](#115-infocert)
+116. [IDEX Biometrics](#116-idex-biometrics)
+117. [Authenteq](#117-authenteq)
+118. [Amiqus](#118-amiqus)
+119. [Credas Technologies](#119-credas-technologies)
+120. [W2 Global Data](#120-w2-global-data)
+121. [yes® (yes.com)](#121-yes-yescom)
 
 ---
 
@@ -1609,6 +1643,602 @@
 
 ---
 
+## 88. Luminess
+
+- **Website:** [luminess.eu](https://www.luminess.eu)
+- **Description:** Luminess is a French digital services company specializing in intelligent document processing, customer communications management (CCM), and document outsourcing. Its platform handles end-to-end document workflows: digitization, OCR extraction, classification, validation, and multichannel distribution of business-critical documents. Used by regulated industries for processing contracts, statements, administrative forms, and identity-related documents with embedded validation and fraud risk controls. Also operates as a managed service provider (BPO) for large-volume document processing.
+- **Security & Compliance:**
+  - ISO 27001 certified
+  - ISO 9001 certified
+  - GDPR compliant
+  - HDS (Hébergeur de Données de Santé) certified
+  - SecNumCloud alignment (ANSSI)
+- **Pricing:** Custom enterprise / BPO project pricing; contact sales.
+- **Nationality:** 🇫🇷 France (Mérignac / Paris region)
+- **Customers / Clients:**
+  - Named: Various French public administrations, insurance companies, utilities, banks
+  - Segments: Insurance, banking, public sector, utilities, healthcare (France-focused)
+
+---
+
+## 89. Docaposte
+
+- **Website:** [docaposte.com](https://www.docaposte.com)
+- **Description:** Docaposte is the digital subsidiary of La Poste (French postal service), providing digital trust services including electronic archiving, qualified e-signatures, KYC/identity verification, digital mailbox, certified document exchange, and biometric identity proofing. Its verified identity offering enables document-based identity verification and fraud detection for regulated industries. Strong in French public administration digital transformation.
+- **Security & Compliance:**
+  - ISO 27001 certified
+  - eIDAS Qualified Trust Service Provider (QTSP)
+  - GDPR compliant
+  - SecNumCloud certified (ANSSI — French national cybersecurity agency)
+  - RGS (Référentiel Général de Sécurité) compliant
+  - CNIL registered
+- **Pricing:** B2B SaaS and BPO pricing; contact sales.
+- **Nationality:** 🇫🇷 France (Paris)
+- **Customers / Clients:**
+  - Named: French public administrations, Enedis, CNP Assurances, CPAM (French health insurance)
+  - Segments: Public sector, banking, insurance, healthcare, utilities (France/EU)
+
+---
+
+## 90. IN Groupe (Imprimerie Nationale)
+
+- **Website:** [ingroupe.com](https://www.ingroupe.com)
+- **Description:** IN Groupe (formerly Imprimerie Nationale) is a French state-owned company that designs and produces secure identity documents: biometric passports, national ID cards (CNIe), driving licences, and residency permits. Their digital services include identity verification (via acquisition of Netheos), biometric document issuance, and the "France Identité" digital national ID programme. Provides end-to-end identity lifecycle management from secure document production to digital KYC verification.
+- **Security & Compliance:**
+  - ISO 27001 certified
+  - ISO 9001 certified
+  - Common Criteria certified (security products)
+  - GDPR compliant
+  - ANSSI SecNumCloud (digital services)
+  - French state security classifications
+- **Pricing:** Government contracts and enterprise licensing; no public pricing.
+- **Nationality:** 🇫🇷 France (Paris)
+- **Customers / Clients:**
+  - Named: French Interior Ministry, ANTS (Agence Nationale des Titres Sécurisés), French DGFIP
+  - Segments: National governments, ministries of interior, law enforcement, regulated enterprises
+
+---
+
+## 91. Netheos
+
+- **Website:** [netheos.fr](https://www.netheos.fr) (now part of IN Groupe)
+- **Description:** Netheos is a French KYC, electronic signature, and digital identity verification company acquired by IN Groupe in 2021. Products include AI-based identity document verification with liveness detection, qualified and advanced electronic signatures, consent management, and AML/KYC compliance workflows. A pioneer in French regulated digital onboarding.
+- **Security & Compliance:**
+  - eIDAS Qualified Trust Service Provider (QTSP)
+  - ISO 27001 certified
+  - GDPR compliant
+  - CNIL registered
+  - 5AMLD/6AMLD compliant
+- **Pricing:** API + SaaS; usage-based pricing. Contact sales.
+- **Nationality:** 🇫🇷 France (Montpellier) — now part of IN Groupe
+- **Customers / Clients:**
+  - Named: BNP Paribas, Crédit Agricole, AXA, MAIF
+  - Segments: Banking, insurance, real estate, notarial services, HR (France/EU)
+
+---
+
+## 92. Itesoft
+
+- **Website:** [itesoft.com](https://www.itesoft.com)
+- **Description:** Itesoft is a French intelligent document processing (IDP) company specializing in automating complex document workflows for accounts payable, HR, and regulatory compliance. Its Streamline platform uses AI-powered OCR, document classification, and data extraction with integrated fraud detection for invoice forgery and document tampering. Covers paper and digital documents including PDFs, images, and emails. Strong track record in French enterprise and public sector.
+- **Security & Compliance:**
+  - ISO 27001 certified
+  - ISO 9001 certified
+  - GDPR compliant
+- **Pricing:** Enterprise SaaS and on-premise licensing; contact sales.
+- **Nationality:** 🇫🇷 France (Nîmes)
+- **Customers / Clients:**
+  - Named: Veolia, TotalEnergies, La Poste, Nexans, Alstom
+  - Segments: Energy, utilities, manufacturing, public sector, financial services (France/EU)
+
+---
+
+## 93. Tessi
+
+- **Website:** [tessi.eu](https://www.tessi.eu)
+- **Description:** Tessi is a French document services and BPO company providing intelligent document processing, digital mailroom, KYC onboarding, check and payment processing, and document fraud detection. Its solutions digitize, classify, extract, and validate documents across banking, insurance, and public sector workflows. The Tessi Bank & Insurance division specifically targets KYC/AML document verification including ID document analysis and financial document authenticity checks.
+- **Security & Compliance:**
+  - ISO 27001 certified
+  - ISO 9001 certified
+  - GDPR compliant
+  - HDS (Hébergeur de Données de Santé) certified
+  - eIDAS compliant
+- **Pricing:** BPO project-based and SaaS licensing; contact sales.
+- **Nationality:** 🇫🇷 France (Lyon)
+- **Customers / Clients:**
+  - Named: Société Générale, Crédit Agricole, CNP Assurances, MACSF, CPAM
+  - Segments: Banking, insurance, healthcare, public sector, telecom (France/EU)
+
+---
+
+## 94. Esker
+
+- **Website:** [esker.com](https://www.esker.com)
+- **Description:** Esker is a French-founded cloud platform for document process automation covering order management, accounts payable (invoice processing), accounts receivable, and procurement. Its AI-powered OCR and document recognition automate invoice capture, matching, and validation with anomaly detection to flag potentially fraudulent invoices. Integrates with major ERP systems and is widely deployed across global enterprise environments.
+- **Security & Compliance:**
+  - ISO 27001 certified
+  - SOC 2 Type II certified
+  - GDPR compliant
+  - PCI DSS compliant
+  - eIDAS compliant (e-invoicing)
+- **Pricing:** SaaS subscription; per-document and per-user pricing. Contact sales for enterprise quotes. Listed on Euronext Paris (ESK).
+- **Nationality:** 🇫🇷 France (Lyon) — publicly traded
+- **Customers / Clients:**
+  - Named: Heineken, Whirlpool, Sharp, Lyreco, Pilkington
+  - Segments: Manufacturing, distribution, retail, financial services, life sciences (global)
+
+---
+
+## 95. Yousign
+
+- **Website:** [yousign.com](https://yousign.com)
+- **Description:** Yousign is a French eIDAS-compliant electronic signature platform targeting SMEs and enterprises in France and Europe. Provides simple, advanced, and qualified electronic signatures, identity verification before signing (via document verification and liveness check), audit trails, and digital archiving. Integrates with KYC workflows for regulated transaction signing and contract management.
+- **Security & Compliance:**
+  - eIDAS compliant (simple, advanced, and qualified signatures)
+  - ISO 27001 certified
+  - GDPR compliant
+  - CNIL registered
+- **Pricing:** Transparent SaaS pricing from €25/month for teams; per-signature and enterprise plans available. Free trial.
+- **Nationality:** 🇫🇷 France (Paris)
+- **Customers / Clients:**
+  - Named: Carrefour Banque, Leboncoin, Anytime, Matera
+  - Segments: Real estate, HR, fintech, legal, SMEs (France/EU)
+
+---
+
+## 96. Fourthline
+
+- **Website:** [fourthline.com](https://www.fourthline.com)
+- **Description:** Fourthline is a European KYC compliance platform purpose-built for regulated financial institutions. Provides automated identity verification, document fraud detection, biometric liveness, AML screening, and ongoing KYC monitoring. Its bank-grade compliance approach is designed specifically for PSD2, 5AMLD, and EBA remote onboarding guidelines. Covers full KYC workflow orchestration with document quality scoring and fraud risk signals.
+- **Security & Compliance:**
+  - ISO 27001 certified
+  - SOC 2 Type II certified
+  - GDPR compliant
+  - EBA Remote Customer Onboarding Guidelines compliant
+  - 5AMLD/6AMLD compliant
+  - iBeta PAD Level 1 certified
+- **Pricing:** Enterprise SaaS; contact sales.
+- **Nationality:** 🇩🇪 Germany (Munich) / 🇳🇱 Netherlands (Amsterdam)
+- **Customers / Clients:**
+  - Named: Scalable Capital, Trade Republic, Vivid Money, Raisin, Penta
+  - Segments: Neobanks, fintechs, investment platforms, challenger banks (EU focus)
+
+---
+
+## 97. Fraugster
+
+- **Website:** [fraugster.com](https://www.fraugster.com)
+- **Description:** Fraugster is a Berlin-based AI payment fraud prevention company using behavioral analytics and transaction pattern recognition to prevent card-not-present (CNP) fraud, account takeover, and identity fraud in real time. Its AI mimics human reasoning to evaluate thousands of signals per transaction, dramatically reducing false positives. Partners with Mastercard and major payment service providers across Europe.
+- **Security & Compliance:**
+  - ISO 27001 certified
+  - PCI DSS compliant
+  - GDPR compliant
+- **Pricing:** Revenue-sharing model and SaaS; contact sales.
+- **Nationality:** 🇩🇪 Germany (Berlin) / 🇮🇱 Israel (co-founded)
+- **Customers / Clients:**
+  - Named: Concardis (now Nets/Nexi), AXA, Mastercard (partnership)
+  - Segments: Payment service providers, e-commerce, airlines, ticketing, financial institutions
+
+---
+
+## 98. Konfuzio
+
+- **Website:** [konfuzio.com](https://konfuzio.com)
+- **Description:** Konfuzio is a German document AI and intelligent document processing (IDP) platform that automates extraction, classification, and validation of data from complex business documents using machine learning. Offers pre-built models for invoices, contracts, ID documents, and tax forms, with active learning for continuous improvement. Supports on-premise and private cloud deployment for data-sensitive industries. Includes anomaly detection for document consistency and fraud flagging.
+- **Security & Compliance:**
+  - ISO 27001 certified
+  - GDPR compliant
+  - On-premise deployment available (data sovereignty)
+  - BSI IT-Grundschutz aligned
+- **Pricing:** SaaS from €500/month; enterprise and on-premise licensing. Contact sales.
+- **Nationality:** 🇩🇪 Germany (Munich)
+- **Customers / Clients:**
+  - Named: Allianz, Volksbanken Raiffeisenbanken
+  - Segments: Banking, insurance, public sector, manufacturing (DACH focus)
+
+---
+
+## 99. Passbase
+
+- **Website:** [passbase.com](https://passbase.com)
+- **Description:** Passbase is a developer-first identity verification API and SDK platform providing document verification, face matching, liveness detection, and KYC for web and mobile applications. Enables startups and enterprises to embed identity verification with low integration effort. Supports 190+ countries with 6,000+ document types. Provides real-time document fraud scoring as part of verification flow.
+- **Security & Compliance:**
+  - ISO 27001 certified
+  - GDPR compliant
+  - CCPA compliant
+- **Pricing:** Pay-as-you-go from $1/verification; volume and enterprise plans. Free tier for development.
+- **Nationality:** 🇩🇪 Germany (Berlin) / 🇺🇸 United States (New York)
+- **Customers / Clients:**
+  - Segments: Startups, fintech, crypto, gaming, gig economy, e-commerce
+
+---
+
+## 100. Authada
+
+- **Website:** [authada.de](https://www.authada.de)
+- **Description:** Authada is a German company specializing in eID-based digital identity verification using the German national eID card (nPA — neuer Personalausweis). Its AUTHADA Verify product enables regulated entities to perform fully AML-compliant KYC using the chip-based German ID card without physical presence. Also provides qualified electronic signature (QES) flows. Recognized by BaFin as a compliant remote identification method.
+- **Security & Compliance:**
+  - BSI-certified (German Federal Office for Information Security)
+  - eIDAS compliant
+  - ISO 27001 certified
+  - GDPR compliant
+  - BaFin-compliant KYC (KWG §25a)
+- **Pricing:** Usage-based API pricing; contact sales.
+- **Nationality:** 🇩🇪 Germany (Darmstadt)
+- **Customers / Clients:**
+  - Named: Various German banks and regulated entities
+  - Segments: Banking, insurance, legal, HR (Germany/DACH focus)
+
+---
+
+## 101. Verifai
+
+- **Website:** [verifai.com](https://www.verifai.com)
+- **Description:** Verifai is a Dutch identity document verification company offering a developer-friendly SDK for scanning, reading, and verifying identity documents (passports, ID cards, driver's licences) on mobile devices. Uses NFC chip reading, MRZ parsing, and document authenticity checks. Designed for privacy-by-design deployments with on-device processing options, ensuring biometric data does not leave the user's device.
+- **Security & Compliance:**
+  - ISO 27001 certified
+  - GDPR compliant (privacy-by-design, on-device processing option)
+  - eIDAS compliant
+- **Pricing:** SDK licensing; usage-based pricing. Contact sales.
+- **Nationality:** 🇳🇱 Netherlands (Amsterdam)
+- **Customers / Clients:**
+  - Named: ING, Randstad, various Dutch enterprises
+  - Segments: Banking, HR, healthcare, government, hospitality (Netherlands/EU focus)
+
+---
+
+## 102. Isabel Group
+
+- **Website:** [isabelgroup.eu](https://www.isabelgroup.eu)
+- **Description:** Isabel Group is a Belgian financial technology company providing digital identity, secure payment, and KYC services for businesses and financial institutions. Its Isabel 6 platform enables secure bank payment and document signing using the Belgian eID card. CodaBox provides a secure certified document exchange platform for accountants and businesses. Plays a central role in Belgian digital financial infrastructure.
+- **Security & Compliance:**
+  - ISO 27001 certified
+  - GDPR compliant
+  - eIDAS compliant
+  - Belgian eID certified
+  - National Bank of Belgium regulated
+- **Pricing:** Subscription-based; per-transaction fees. Contact sales.
+- **Nationality:** 🇧🇪 Belgium (Brussels)
+- **Customers / Clients:**
+  - Named: BNP Paribas Fortis, KBC, ING Belgium, Belfius; 70,000+ companies
+  - Segments: Belgian and EU enterprises, banking, accounting, SMEs
+
+---
+
+## 103. TrustBuilder
+
+- **Website:** [trustbuilder.com](https://www.trustbuilder.com)
+- **Description:** TrustBuilder (formerly InWebo) is a Belgian identity security company providing multi-factor authentication (MFA), passwordless authentication, adaptive risk-based authentication, and identity verification for enterprises. Its platform analyses fraud signals and supports document-backed identity proofing for high-assurance digital access. Used by European banks for PSD2/Strong Customer Authentication (SCA) compliance.
+- **Security & Compliance:**
+  - ISO 27001 certified
+  - eIDAS compliant
+  - GDPR compliant
+  - PSD2/SCA compliant
+  - FIDO2 certified
+- **Pricing:** SaaS subscription; per-user and per-transaction pricing. Contact sales.
+- **Nationality:** 🇧🇪 Belgium (Brussels)
+- **Customers / Clients:**
+  - Named: Crédit Agricole, Groupama, Bpifrance
+  - Segments: Banking, insurance, healthcare, enterprise (France/EU focus)
+
+---
+
+## 104. KYC Spider
+
+- **Website:** [kyc-spider.com](https://www.kyc-spider.com)
+- **Description:** KYC Spider is a Swiss AML compliance and KYC screening platform providing real-time and batch sanctions screening, PEPs screening, adverse media monitoring, and watchlist management. Its ScreeningManager platform screens against 1,400+ global lists. Integrates with document verification flows for holistic KYC risk assessment in Swiss and EU regulated environments.
+- **Security & Compliance:**
+  - ISO 27001 certified
+  - GDPR compliant
+  - Swiss DSG (Data Protection Act) compliant
+  - FINMA (Swiss Financial Market Supervisory Authority) aligned
+  - 5AMLD/6AMLD compliant
+- **Pricing:** SaaS subscription; volume-based per-screening pricing. Contact sales.
+- **Nationality:** 🇨🇭 Switzerland (Baden)
+- **Customers / Clients:**
+  - Named: Zurich Insurance, various Swiss banks and financial intermediaries
+  - Segments: Banking, insurance, legal, wealth management, fintech (Switzerland/DACH/EU)
+
+---
+
+## 105. SwissSign
+
+- **Website:** [swisssign.com](https://www.swisssign.com)
+- **Description:** SwissSign is a Swiss trust service provider (TSP) and qualified trust service provider (QTSP) under eIDAS, offering electronic signatures (simple, advanced, qualified), digital certificates, and identity services. Operates the SwissID digital identity standard used by the Swiss government and major enterprises. Provides regulated remote identity verification for qualified electronic signature (QES) issuance.
+- **Security & Compliance:**
+  - eIDAS Qualified Trust Service Provider (QTSP)
+  - ISO 27001 certified
+  - WebTrust for CAs certified
+  - GDPR compliant
+  - Swiss DSG (Data Protection Act) compliant
+- **Pricing:** Per-signature and per-certificate pricing; enterprise plans. Contact sales.
+- **Nationality:** 🇨🇭 Switzerland (Zürich) — subsidiary of Swiss Post, SBB, and major Swiss banks
+- **Customers / Clients:**
+  - Named: Swiss Confederation agencies, Swiss Post, SBB, Swisscom
+  - Segments: Swiss government, banking, insurance, enterprise (Switzerland/EU)
+
+---
+
+## 106. Procivis
+
+- **Website:** [procivis.ch](https://www.procivis.ch)
+- **Description:** Procivis is a Swiss digital identity company developing Self-Sovereign Identity (SSI) and government-grade digital identity infrastructure. Its One platform enables citizens to hold verifiable digital credentials (e.g., digital ID card, driving licence) and share them selectively. Partners with Swiss cantons and the Swiss federal government for the e-ID programme. Eliminates physical document fraud through cryptographically verifiable, tamper-proof identity credentials.
+- **Security & Compliance:**
+  - ISO 27001 certified
+  - GDPR compliant
+  - Swiss DSG compliant
+  - W3C Verifiable Credentials standard compliant
+  - eIDAS 2.0 / EUDIW (EU Digital Identity Wallet) compatible
+- **Pricing:** Government and enterprise licensing; contact sales.
+- **Nationality:** 🇨🇭 Switzerland (Bern)
+- **Customers / Clients:**
+  - Named: Swiss federal government (pilot programmes), Swiss cantons
+  - Segments: Government, public administration, regulated enterprises
+
+---
+
+## 107. ID-Pal
+
+- **Website:** [id-pal.com](https://www.id-pal.com)
+- **Description:** ID-Pal is an Irish identity verification platform providing KYC, AML, and document verification accessible to SMEs and enterprises. Its platform verifies identity documents, matches selfies, checks liveness, and screens against AML/PEPs/sanctions databases. Designed for businesses of all sizes — including law firms, estate agents, and financial advisors — without requiring large compliance teams.
+- **Security & Compliance:**
+  - ISO 27001 certified
+  - GDPR compliant
+  - Irish Data Protection Commission (DPC) registered
+  - 5AMLD/6AMLD compliant
+- **Pricing:** Subscription-based; per-check pricing from €1.50/check. SME-friendly plans available. Enterprise custom pricing.
+- **Nationality:** 🇮🇪 Ireland (Cork)
+- **Customers / Clients:**
+  - Named: Irish law firms, accountancy practices, estate agents, financial services firms
+  - Segments: Legal, real estate, accountancy, financial advice, banking (Ireland/UK/EU)
+
+---
+
+## 108. iDenfy
+
+- **Website:** [idenfy.com](https://www.idenfy.com)
+- **Description:** iDenfy is a Lithuanian identity verification company offering KYC, AML, and biometric verification services. Its platform provides automated document verification, facial recognition, liveness detection, and AML screening against global watchlists. Supports 3,000+ document types from 200+ countries. Includes an optional human expert review layer for ambiguous or high-risk cases.
+- **Security & Compliance:**
+  - ISO 27001 certified
+  - SOC 2 Type II certified
+  - GDPR compliant
+  - 5AMLD/6AMLD compliant
+- **Pricing:** Pay-per-verification from $0.50/verification; volume discounts; enterprise pricing available. Transparent pricing page.
+- **Nationality:** 🇱🇹 Lithuania (Kaunas)
+- **Customers / Clients:**
+  - Named: DueDil, Payrnet, various EU fintechs
+  - Segments: Fintech, crypto, banking, gaming, lending (EU focus)
+
+---
+
+## 109. Dokobit
+
+- **Website:** [dokobit.com](https://www.dokobit.com)
+- **Description:** Dokobit is a Lithuanian electronic signature and digital identity gateway serving the Baltic and broader EU market. Its platform enables qualified electronic signatures (QES), advanced signatures (AdES), identity verification via national eIDs (Lithuanian eID, Estonian eID, Latvian eID, Finnish Mobiilivarmenne, Swedish BankID), and secure document management. A leading platform for eIDAS-compliant digital signing in the Baltic region.
+- **Security & Compliance:**
+  - eIDAS Qualified Trust Service Provider (QTSP)
+  - ISO 27001 certified
+  - GDPR compliant
+  - National eID integrations compliant (AGPN/ADCS)
+- **Pricing:** SaaS per-signature and per-user pricing; API available. Contact sales for enterprise.
+- **Nationality:** 🇱🇹 Lithuania (Vilnius)
+- **Customers / Clients:**
+  - Named: Luminor Bank, Swedbank Lithuania, various Baltic businesses
+  - Segments: Banking, government, legal, HR, real estate (Baltic/Nordic/EU)
+
+---
+
+## 110. Norbloc
+
+- **Website:** [norbloc.com](https://www.norbloc.com)
+- **Description:** Norbloc is a Swedish RegTech company providing a blockchain-based KYC data sharing network for financial institutions. Its Fides platform enables banks and fintechs to share verified KYC data and documents securely, reducing duplication and cost while maintaining compliance. Uses distributed ledger technology to maintain an immutable audit trail of identity verification decisions and shared document records.
+- **Security & Compliance:**
+  - ISO 27001 certified
+  - GDPR compliant
+  - 5AMLD/6AMLD compliant
+  - Bank-grade security architecture
+- **Pricing:** Network participation and SaaS licensing; contact sales.
+- **Nationality:** 🇸🇪 Sweden (Stockholm)
+- **Customers / Clients:**
+  - Named: SEB, Handelsbanken, Nasdaq (Baltic), fintech partners
+  - Segments: Nordic/EU banks, investment platforms, fintech
+
+---
+
+## 111. Trapets
+
+- **Website:** [trapets.com](https://www.trapets.com)
+- **Description:** Trapets is a Swedish RegTech company providing AML transaction monitoring, sanctions screening, and KYC risk management solutions for financial institutions. Its InstantWatch AML and KYC Manager products help banks and payment firms detect money laundering patterns and ensure regulatory compliance. Covers ongoing document-based KYC refresh workflows and periodic review automation.
+- **Security & Compliance:**
+  - ISO 27001 certified
+  - GDPR compliant
+  - Finansinspektionen (Swedish FI) aligned compliance framework
+  - 5AMLD/6AMLD compliant
+- **Pricing:** SaaS subscription; enterprise pricing on request.
+- **Nationality:** 🇸🇪 Sweden (Stockholm)
+- **Customers / Clients:**
+  - Named: Swedbank, various Swedish and Nordic financial institutions
+  - Segments: Banking, payment institutions, securities firms (Nordic focus)
+
+---
+
+## 112. ValidatedID
+
+- **Website:** [validatedid.com](https://www.validatedid.com)
+- **Description:** ValidatedID is a Spanish electronic signature and digital identity company providing eIDAS-compliant electronic signature solutions (VIDsigner), digital certificates, and KYC/identity verification. Its self-sovereign identity (SSI) platform VIDchain enables verifiable credentials and decentralized identity for enterprises and governments. Widely used in Spanish healthcare for digital consent and in HR for employment document signing.
+- **Security & Compliance:**
+  - eIDAS Qualified Trust Service Provider (QTSP)
+  - ISO 27001 certified
+  - GDPR compliant
+  - ENS (Spain's National Security Framework — Esquema Nacional de Seguridad) compliant
+- **Pricing:** SaaS per-signature and subscription; contact sales.
+- **Nationality:** 🇪🇸 Spain (Barcelona)
+- **Customers / Clients:**
+  - Named: Hospital Vall d'Hebron, Col·legi de Metges de Barcelona, Correos
+  - Segments: Healthcare, HR, legal, public sector, banking (Spain/EU)
+
+---
+
+## 113. Signaturit
+
+- **Website:** [signaturit.com](https://www.signaturit.com)
+- **Description:** Signaturit is a Spanish electronic signature and digital transaction management company offering eIDAS-compliant e-signatures, identity verification (biometric and document-based), digital contract management, and certified email. Its KYC module verifies signers' identities through document upload and liveness detection before allowing qualified or advanced signature execution, preventing fraudulent contract signing.
+- **Security & Compliance:**
+  - eIDAS Qualified Trust Service Provider (QTSP)
+  - ISO 27001 certified
+  - GDPR compliant
+  - ENS compliant
+- **Pricing:** SaaS from €39/month for SMEs; enterprise and API pricing custom-quoted. Free trial available.
+- **Nationality:** 🇪🇸 Spain (Barcelona)
+- **Customers / Clients:**
+  - Named: BBVA, Vente-unique.com, Fintonic, Solera
+  - Segments: Banking, insurance, legal, HR, real estate (Spain/EU)
+
+---
+
+## 114. Namirial
+
+- **Website:** [namirial.com](https://www.namirial.com)
+- **Description:** Namirial is an Italian trust service provider and digital identity company offering qualified electronic signatures (QES), digital certificates, eIDAS-compliant timestamping, identity verification, KYC, and document management automation. A key player in Italian digital transformation, serving enterprises, government, and healthcare. Its platform includes document fraud detection and digital archiving compliant with Italian AgCom regulations.
+- **Security & Compliance:**
+  - eIDAS Qualified Trust Service Provider (QTSP)
+  - ISO 27001 certified
+  - GDPR compliant
+  - AgID (Italian Digital Agency) certified
+  - IVASS (Italian insurance regulator) compliant
+- **Pricing:** Per-signature, per-user, and enterprise subscription. Contact sales.
+- **Nationality:** 🇮🇹 Italy (Senigallia / Milan)
+- **Customers / Clients:**
+  - Named: Italian public ministries, banking partners, Mediolanum
+  - Segments: Banking, insurance, healthcare, public administration, HR (Italy/EU)
+
+---
+
+## 115. Infocert
+
+- **Website:** [infocert.it](https://www.infocert.it)
+- **Description:** Infocert is Italy's largest Certification Authority and trust service provider, part of the Tinexta Group. Provides qualified electronic signatures, digital identity (SPID — Sistema Pubblico di Identità Digitale, the Italian national digital identity system), PEC (certified email), digital timestamping, and document management. Offers Know Your Customer identity verification for Italian and EU regulated entities with a focus on public administration integration.
+- **Security & Compliance:**
+  - eIDAS Qualified Trust Service Provider (QTSP)
+  - ISO 27001 certified
+  - GDPR compliant
+  - AgID accredited (Italian Digital Agency)
+  - SPID accredited identity provider
+- **Pricing:** Per-certificate, per-signature, and subscription plans. Enterprise pricing on request.
+- **Nationality:** 🇮🇹 Italy (Rome / Padua)
+- **Customers / Clients:**
+  - Named: Italian public administrations, UniCredit, Mediobanca, Banca Mediolanum
+  - Segments: Banking, insurance, healthcare, public sector, HR (Italy focus)
+
+---
+
+## 116. IDEX Biometrics
+
+- **Website:** [idexbiometrics.com](https://www.idexbiometrics.com)
+- **Description:** IDEX Biometrics is a Norwegian semiconductor company providing fingerprint sensor solutions for biometric smart cards (payment cards, access cards, government ID cards). Its on-card biometric authentication technology prevents card fraud without requiring a PIN or network connectivity, as the fingerprint template is stored and matched entirely on the card itself. Deployed in biometric payment cards globally by major banks and card issuers.
+- **Security & Compliance:**
+  - ISO 27001 certified
+  - Common Criteria EAL6+ certified (sensor-level security)
+  - EMVCo biometric card certified
+  - GDPR compliant (on-card biometric processing — no data leaves the card)
+- **Pricing:** Hardware volume pricing for smart card manufacturers; contact sales. Public company (Oslo Stock Exchange: IDEX).
+- **Nationality:** 🇳🇴 Norway (Oslo)
+- **Customers / Clients:**
+  - Named: IDEMIA, Infineon (integration partnerships), card bureau partners globally
+  - Segments: Payment card issuers, banks, access control, government ID programmes
+
+---
+
+## 117. Authenteq
+
+- **Website:** [authenteq.com](https://www.authenteq.com)
+- **Description:** Authenteq is an Icelandic privacy-first identity verification company providing automated KYC with a strong focus on minimal data collection and GDPR compliance. Features include AI-powered document verification, biometric liveness detection, and a unique privacy architecture that does not store raw biometric data after verification. Offers SDKs and APIs for seamless web and mobile integration.
+- **Security & Compliance:**
+  - ISO 27001 certified
+  - SOC 2 Type II certified
+  - GDPR compliant (privacy-by-design, no biometric data retained)
+  - iBeta PAD certified
+- **Pricing:** Usage-based per-verification; contact sales for volume/enterprise pricing.
+- **Nationality:** 🇮🇸 Iceland (Reykjavik)
+- **Customers / Clients:**
+  - Segments: Fintech, gaming, crypto, e-commerce, HR
+
+---
+
+## 118. Amiqus
+
+- **Website:** [amiqus.co](https://amiqus.co)
+- **Description:** Amiqus is a Scottish identity verification and background screening platform providing digital KYC, Right to Work checks, DBS (Disclosure and Barring Service) checks, AML screening, and document verification for SMEs in legal, financial services, and HR. Its no-code verification flow builder enables rapid deployment without technical resources. Registered as a UK Identity Service Provider (IDSP).
+- **Security & Compliance:**
+  - ISO 27001 certified
+  - GDPR compliant
+  - UK ICO registered
+  - Cyber Essentials Plus certified
+  - UK Digital Identity and Attributes Trust Framework (DIATF) participant (IDSP)
+- **Pricing:** Subscription-based; per-check pricing from £2.50/check. SME plans available.
+- **Nationality:** 🇬🇧 United Kingdom (Edinburgh, Scotland)
+- **Customers / Clients:**
+  - Named: Scottish law firms, accountancy practices, HR agencies
+  - Segments: Legal, accounting, recruitment, financial services, property (UK focus)
+
+---
+
+## 119. Credas Technologies
+
+- **Website:** [credas.co.uk](https://www.credas.co.uk)
+- **Description:** Credas Technologies is a UK identity verification company specializing in Right to Work, Right to Rent, DBS, AML, and digital KYC checks for property, HR, and financial services sectors. Its platform automates document capture, biometric verification, and database cross-referencing for compliant identity verification under UK legislation. Integrates with estate agency and HR management software.
+- **Security & Compliance:**
+  - ISO 27001 certified
+  - GDPR compliant
+  - UK ICO registered
+  - Cyber Essentials certified
+  - HMRC AML supervision compliant
+  - UK IDSP registered
+- **Pricing:** Per-check and subscription pricing; contact sales. SME and enterprise plans.
+- **Nationality:** 🇬🇧 United Kingdom (Cardiff, Wales)
+- **Customers / Clients:**
+  - Named: Various UK estate agents, law firms, HR agencies
+  - Segments: Property, legal, HR, financial services (UK focus)
+
+---
+
+## 120. W2 Global Data
+
+- **Website:** [w2globaldata.com](https://www.w2globaldata.com)
+- **Description:** W2 Global Data is a UK KYC/AML and identity data orchestration platform that aggregates multiple verification data sources through a single API. Provides document verification, identity verification, AML/sanctions screening, adverse media, PEP checks, and credit bureau data. Designed as a flexible orchestration layer allowing businesses to mix and match verification data providers without multiple integrations.
+- **Security & Compliance:**
+  - ISO 27001 certified
+  - SOC 2 Type II certified
+  - GDPR compliant
+  - FCA registered
+  - 5AMLD/6AMLD compliant
+- **Pricing:** Consumption-based; per-check pricing. Enterprise SaaS contracts available.
+- **Nationality:** 🇬🇧 United Kingdom (London)
+- **Customers / Clients:**
+  - Named: Equals Money, Tide, Chetwood Financial
+  - Segments: Fintech, banking, lending, insurance, crypto (UK/EU)
+
+---
+
+## 121. yes® (yes.com)
+
+- **Website:** [yes.com](https://www.yes.com)
+- **Description:** yes® is a German banking-industry digital identity and payment standard initiated by a consortium of major German banks (Deutsche Bank, Commerzbank, DZ Bank, Sparkassen, etc.). It enables consumers to authenticate and share verified personal data — including identity document data confirmed by their bank — directly to third-party services, providing bank-grade KYC without re-uploading documents. Used for age verification, data pre-filling, bank-verified login, and compliant digital onboarding.
+- **Security & Compliance:**
+  - BaFin regulated
+  - ISO 27001 certified
+  - GDPR compliant
+  - eIDAS compliant
+  - PSD2/Open Banking compliant
+  - German BSI standards
+- **Pricing:** Usage-based for service providers; consumer-facing use is free. Contact sales.
+- **Nationality:** 🇩🇪 Germany (Frankfurt)
+- **Customers / Clients:**
+  - Named: 40+ German banks participating as identity providers; service providers in insurance, fintech, gaming
+  - Segments: Banking, insurance, fintech, media, e-commerce (Germany/DACH focus)
+
+---
+
 ## Summary Comparison Table
 
 | # | Company | Nationality | Key Technology | Key Certifications | Pricing Model |
@@ -1700,6 +2330,40 @@
 | 85 | Fraud.net | 🇺🇸 USA | Unified fraud management | SOC 2, ISO 27001 | Usage-based |
 | 86 | Dotfile | 🇫🇷 France | KYB, business verification | ISO 27001 | Modular SaaS |
 | 87 | Ekata/Mastercard | 🇺🇸 USA | Identity graph, risk scoring | ISO 27001, SOC 2 | API/volume |
+| 88 | Luminess | 🇫🇷 France | IDP, CCM, document outsourcing | ISO 27001, ISO 9001, HDS | BPO/enterprise |
+| 89 | Docaposte | 🇫🇷 France | Digital trust, KYC, e-signature | ISO 27001, eIDAS QTSP, SecNumCloud | B2B SaaS/BPO |
+| 90 | IN Groupe | 🇫🇷 France | Secure ID docs, ePassport, eID | ISO 27001, Common Criteria | Government contract |
+| 91 | Netheos | 🇫🇷 France | KYC, e-signature, liveness | ISO 27001, eIDAS QTSP | Usage-based API |
+| 92 | Itesoft | 🇫🇷 France | IDP, invoice fraud detection | ISO 27001, ISO 9001 | Enterprise |
+| 93 | Tessi | 🇫🇷 France | Document BPO, KYC, fraud | ISO 27001, HDS | BPO/SaaS |
+| 94 | Esker | 🇫🇷 France | Invoice automation, AP/AR | ISO 27001, SOC 2, PCI DSS | Per-document/SaaS |
+| 95 | Yousign | 🇫🇷 France | eIDAS e-signature, identity | ISO 27001, eIDAS | From €25/mo |
+| 96 | Fourthline | 🇩🇪 Germany | KYC, doc fraud, EBA compliance | ISO 27001, SOC 2, iBeta | Enterprise |
+| 97 | Fraugster | 🇩🇪 Germany | AI payment fraud prevention | ISO 27001, PCI DSS | Revenue-share/SaaS |
+| 98 | Konfuzio | 🇩🇪 Germany | Document AI, IDP | ISO 27001 | From €500/mo |
+| 99 | Passbase | 🇩🇪 Germany | Developer ID verify API | ISO 27001 | From $1/verify |
+| 100 | Authada | 🇩🇪 Germany | German eID (nPA) verification | BSI, eIDAS, ISO 27001 | Usage-based API |
+| 101 | Verifai | 🇳🇱 Netherlands | Privacy-first ID doc SDK | ISO 27001, eIDAS | SDK license |
+| 102 | Isabel Group | 🇧🇪 Belgium | Digital identity, KYC, eID | ISO 27001, eIDAS | Subscription |
+| 103 | TrustBuilder | 🇧🇪 Belgium | MFA, risk auth, PSD2/SCA | ISO 27001, FIDO2, eIDAS | Per-user/SaaS |
+| 104 | KYC Spider | 🇨🇭 Switzerland | AML/KYC screening, sanctions | ISO 27001, FINMA aligned | Subscription |
+| 105 | SwissSign | 🇨🇭 Switzerland | QES, digital certs, SwissID | ISO 27001, eIDAS QTSP | Per-signature |
+| 106 | Procivis | 🇨🇭 Switzerland | SSI, verifiable credentials | ISO 27001, eIDAS 2.0 | Enterprise/gov |
+| 107 | ID-Pal | 🇮🇪 Ireland | KYC, AML, doc verification SME | ISO 27001 | From €1.50/check |
+| 108 | iDenfy | 🇱🇹 Lithuania | KYC, liveness, AML screening | ISO 27001, SOC 2 | From $0.50/verify |
+| 109 | Dokobit | 🇱🇹 Lithuania | QES, eID gateway, Baltic/EU | ISO 27001, eIDAS QTSP | Per-signature/SaaS |
+| 110 | Norbloc | 🇸🇪 Sweden | Blockchain KYC data sharing | ISO 27001 | Network/SaaS |
+| 111 | Trapets | 🇸🇪 Sweden | AML monitoring, KYC refresh | ISO 27001 | Subscription |
+| 112 | ValidatedID | 🇪🇸 Spain | QES, SSI, KYC verification | ISO 27001, eIDAS QTSP | Per-signature/SaaS |
+| 113 | Signaturit | 🇪🇸 Spain | QES, biometric KYC, e-contracts | ISO 27001, eIDAS QTSP | From €39/mo |
+| 114 | Namirial | 🇮🇹 Italy | QES, SPID, digital identity | ISO 27001, eIDAS QTSP, AgID | Per-signature |
+| 115 | Infocert | 🇮🇹 Italy | SPID, QES, Italian trust service | ISO 27001, eIDAS QTSP, AgID | Subscription |
+| 116 | IDEX Biometrics | 🇳🇴 Norway | Biometric smart card sensors | Common Criteria EAL6+, EMVCo | Hardware volume |
+| 117 | Authenteq | 🇮🇸 Iceland | Privacy-first KYC, biometrics | ISO 27001, SOC 2 | Per-verification |
+| 118 | Amiqus | 🇬🇧 UK (Scotland) | KYC, RTW, DBS, AML — SME | ISO 27001, Cyber Essentials+ | From £2.50/check |
+| 119 | Credas Technologies | 🇬🇧 UK (Wales) | RTW, AML, property KYC | ISO 27001, Cyber Essentials | Per-check/SaaS |
+| 120 | W2 Global Data | 🇬🇧 UK | KYC/AML data orchestration | ISO 27001, SOC 2, FCA | Per-check |
+| 121 | yes® (yes.com) | 🇩🇪 Germany | Bank-verified digital identity | ISO 27001, BaFin, eIDAS | Usage-based |
 
 ---
 
