@@ -401,7 +401,41 @@ Identifier, évaluer et classer toutes les solutions OCR (Optical Character Reco
 
 ---
 
-### 1. Google Document AI
+### 1. Mistral OCR (Mistral AI)
+
+- **Éditeur** : Mistral AI (France)
+- **Type** : Cloud (API) / On-premise (via Mistral self-hosted)
+- **Description** : Solution OCR de nouvelle génération lancée en mars 2025 par Mistral AI. Basée sur le modèle de vision Pixtral, elle est conçue spécifiquement pour la compréhension documentaire de haute précision : texte imprimé, tableaux complexes, formules mathématiques, multi-colonnes, documents dégradés. Considérée par de nombreux benchmarks indépendants comme la meilleure solution OCR commerciale disponible à ce jour.
+- **Précision OCR** :
+  - **OmniDocBench** : ~94,89% — parmi les scores les plus élevés toutes catégories confondues (commercial et open source)
+  - Surpasse GPT-4o et Claude 3.5 Sonnet sur la majorité des benchmarks documentaires
+  - Excellente précision sur formules mathématiques, tableaux imbriqués, texte sur fond complexe
+  - Très robuste sur documents multi-colonnes et mises en page complexes
+  - Restitution fidèle du Markdown structuré (titres, tableaux, formules LaTeX)
+- **Avantages clés** :
+  - Meilleure précision du marché sur documents complexes mixtes (texte + tableaux + formules)
+  - Restitution directe en Markdown avec préservation de la structure (titres, tableaux, équations)
+  - Multilingue natif (Latin, cyrillique, arabe, CJK, devanagari, etc.)
+  - Traitement des PDF multi-pages avec maintien du contexte
+  - API simple via la Plateforme Mistral (REST)
+  - Option de déploiement on-premise avec Mistral Self-Hosted
+  - Vitesse de traitement compétitive
+  - Acteur européen (conformité RGPD facilitée)
+- **Inconvénients** :
+  - Offre on-premise nécessite un accord enterprise
+  - Modèle plus récent : ecosystème d'intégrations moins mature que AWS/Azure/Google
+  - Coût potentiellement élevé pour très grands volumes
+- **Ordre de prix** :
+  - API : facturation par page/token via la Plateforme Mistral (tarifs progressifs)
+  - Enterprise / self-hosted : sur devis
+- **Liens sources** :
+  - Annonce officielle : https://mistral.ai/news/mistral-ocr
+  - API Documentation : https://docs.mistral.ai/capabilities/document/
+  - La Plateforme : https://console.mistral.ai/
+
+---
+
+### 2. Google Document AI
 
 - **Éditeur** : Google Cloud
 - **Type** : Cloud (SaaS / API)
@@ -433,7 +467,7 @@ Identifier, évaluer et classer toutes les solutions OCR (Optical Character Reco
 
 ---
 
-### 2. AWS Textract (Amazon)
+### 3. AWS Textract (Amazon)
 
 - **Éditeur** : Amazon Web Services
 - **Type** : Cloud (SaaS / API)
@@ -463,7 +497,7 @@ Identifier, évaluer et classer toutes les solutions OCR (Optical Character Reco
 
 ---
 
-### 3. Azure AI Document Intelligence (Microsoft)
+### 4. Azure AI Document Intelligence (Microsoft)
 
 - **Éditeur** : Microsoft Azure
 - **Type** : Cloud / On-premise (via containers Docker)
@@ -494,7 +528,7 @@ Identifier, évaluer et classer toutes les solutions OCR (Optical Character Reco
 
 ---
 
-### 4. ABBYY FineReader / Vantage
+### 5. ABBYY FineReader / Vantage
 
 - **Éditeur** : ABBYY (entreprise européenne)
 - **Type** : On-premise / Cloud / Hybride
@@ -527,7 +561,7 @@ Identifier, évaluer et classer toutes les solutions OCR (Optical Character Reco
 
 ---
 
-### 5. Google Cloud Vision API
+### 6. Google Cloud Vision API
 
 - **Éditeur** : Google Cloud
 - **Type** : Cloud (SaaS / API)
@@ -554,7 +588,7 @@ Identifier, évaluer et classer toutes les solutions OCR (Optical Character Reco
 
 ---
 
-### 6. Mathpix (Charcoal Health)
+### 7. Mathpix (Charcoal Health)
 
 - **Éditeur** : Mathpix / Charcoal Health
 - **Type** : Cloud (API) / On-premise possible
@@ -582,7 +616,7 @@ Identifier, évaluer et classer toutes les solutions OCR (Optical Character Reco
 
 ---
 
-### 7. Mindee (API Platform)
+### 8. Mindee (API Platform)
 
 - **Éditeur** : Mindee (France)
 - **Type** : Cloud (API) / On-premise (avec docTR open source)
@@ -609,7 +643,7 @@ Identifier, évaluer et classer toutes les solutions OCR (Optical Character Reco
 
 ---
 
-### 8. Datalab.to (Surya API hébergée)
+### 9. Datalab.to (Surya API hébergée)
 
 - **Éditeur** : Datalab (auteurs de Surya / Marker)
 - **Type** : Cloud (API managée) + On-premise possible
@@ -632,7 +666,7 @@ Identifier, évaluer et classer toutes les solutions OCR (Optical Character Reco
 
 ---
 
-### 9. OpenAI GPT-4V / Claude Vision (LLM multimodaux)
+### 10. OpenAI GPT-4V / Claude Vision (LLM multimodaux)
 
 - **Éditeur** : OpenAI / Anthropic
 - **Type** : Cloud (API)
@@ -661,6 +695,191 @@ Identifier, évaluer et classer toutes les solutions OCR (Optical Character Reco
 
 ---
 
+### 11. LlamaParse (LlamaIndex / LlamaCloud)
+
+- **Éditeur** : LlamaIndex (ex-GPT Index)
+- **Type** : Cloud (API SaaS)
+- **Description** : Service de parsing documentaire premium développé par LlamaIndex, conçu spécifiquement pour alimenter des pipelines RAG et des agents IA. Prend en charge PDF, DOCX, PPTX, XLSX, HTML et de nombreux autres formats. Extrait texte, tableaux et images en Markdown ou JSON structuré, avec préservation fidèle du layout. Très largement adopté dans l'écosystème open source LLM.
+- **Précision OCR** :
+  - Très haute précision sur documents complexes mixtes
+  - Reconstruction fidèle des tableaux avec en-têtes et fusions de cellules
+  - Gestion des formules mathématiques et du texte scientifique
+  - Résultats compétitifs sur benchmarks RAG end-to-end
+- **Avantages clés** :
+  - Parsing multiformat (PDF, DOCX, PPTX, XLSX, HTML, etc.)
+  - Output Markdown ou JSON structuré nativement prêt pour LLM/RAG
+  - Intégration native avec LlamaIndex, LangChain, LlamaCloud
+  - Très populaire dans l'écosystème LLM open source (millions d'utilisateurs)
+  - Mode "premium" avec VLM pour documents très complexes
+  - API REST simple + Python SDK
+  - Gestion des images et des graphiques dans les PDF
+  - Plan gratuit généreux pour test et développement
+- **Inconvénients** :
+  - Dépendance cloud (pas d'option on-premise)
+  - Coût peut monter vite pour très grands volumes
+  - Moins adapté aux documents non-anglais très complexes
+- **Ordre de prix** :
+  - Gratuit : 1 000 pages/jour
+  - Premium : à partir de ~7 $/1 000 pages
+  - Plans enterprise sur devis
+- **Liens sources** :
+  - Site officiel : https://www.llamaindex.ai/llamaparse
+  - Documentation : https://docs.llamaindex.ai/en/stable/llama_cloud/llama_parse/
+  - GitHub : https://github.com/run-llama/llama_parse
+
+---
+
+### 12. Nanonets
+
+- **Éditeur** : Nanonets (USA)
+- **Type** : Cloud (SaaS / API)
+- **Description** : Plateforme IDP (Intelligent Document Processing) basée sur l'IA, destinée à automatiser l'extraction de données depuis documents financiers, formulaires, factures, reçus et tout type de document d'entreprise. Combine OCR de pointe, extraction de champs configurables, workflows d'approbation et intégrations ERP/comptabilité.
+- **Précision OCR** :
+  - Très haute précision sur documents financiers et formulaires standardisés
+  - Amélioration continue par feedback humain (Human-in-the-Loop)
+  - Bonne robustesse sur documents scannés de qualité variable
+- **Avantages clés** :
+  - Interface no-code/low-code pour configuration sans développement
+  - Extraction de champs configurables par type de document
+  - Workflows de validation et approbation intégrés
+  - Connecteurs natifs ERP (SAP, QuickBooks, Xero, NetSuite)
+  - Traitement batch et temps réel
+  - Human-in-the-Loop pour correction et amélioration continue
+  - Support de 50+ langues
+  - Très populaire pour la comptabilité fournisseurs (AP automation)
+- **Inconvénients** :
+  - Solution cloud uniquement (pas d'on-premise)
+  - Coût élevé pour volumes importants
+  - Personnalisation avancée nécessite plan supérieur
+- **Ordre de prix** :
+  - Plans à partir de ~499 $/mois
+  - Enterprise sur devis
+- **Liens sources** :
+  - Site officiel : https://nanonets.com/
+  - Documentation : https://nanonets.com/documentation/
+
+---
+
+### 13. Rossum
+
+- **Éditeur** : Rossum (République Tchèque / USA)
+- **Type** : Cloud (SaaS) / On-premise (enterprise)
+- **Description** : Plateforme IA de capture documentaire et d'automatisation AP (Accounts Payable) leader du marché européen. Spécialisée dans la compréhension des factures, bons de commande et documents financiers complexes. Utilise un modèle cognitif pré-entraîné sur des millions de documents qui s'adapte à chaque client avec très peu d'exemples.
+- **Précision OCR** :
+  - Très haute précision sur factures, PO et documents financiers (>98% sur les documents bien scannés)
+  - Modèle cognitif qui comprend la sémantique des champs (pas seulement la position)
+  - Robuste sur les variations de templates fournisseurs
+- **Avantages clés** :
+  - Approche "cognitive AI" : comprend le document au-delà de la position des champs
+  - Très peu d'exemples nécessaires pour adapter un nouveau fournisseur
+  - Workflows d'exception et de validation intégrés
+  - Connecteurs ERP natifs (SAP, Oracle, Dynamics 365, Netsuite)
+  - Audit trail complet pour conformité
+  - Option on-premise pour grandes entreprises
+  - Acteur européen reconnu (conformité RGPD)
+- **Inconvénients** :
+  - Principalement orienté finance et AP — moins généraliste
+  - Coût élevé pour les PME
+  - Périmètre documentaire plus restreint que les plateformes généralistes
+- **Ordre de prix** :
+  - Enterprise uniquement, sur devis (prix généralement >20 000 $/an)
+- **Liens sources** :
+  - Site officiel : https://rossum.ai/
+  - Documentation : https://docs.rossum.ai/
+
+---
+
+### 14. Kofax / Tungsten Automation
+
+- **Éditeur** : Tungsten Automation (ex-Kofax, racheté par Thoma Bravo)
+- **Type** : On-premise / Cloud / Hybride
+- **Description** : Acteur historique de l'OCR et de la capture documentaire enterprise, opérant sous le nom Tungsten Automation depuis 2023. Produits phares : Tungsten TotalAgility (plateforme IDP complète), Tungsten Capture (anciennement Kofax Capture), PowerPDF, OmniPage. Présence dans des milliers d'entreprises depuis plus de 30 ans.
+- **Précision OCR** :
+  - OmniPage : historiquement parmi les meilleurs moteurs OCR du marché pour texte imprimé
+  - TotalAgility : combine OCR, IA et RPA pour extraction documentaire de très haute précision
+  - Très bonne robustesse sur documents dégradés et variés
+- **Avantages clés** :
+  - Maturité exceptionnelle et base installée massive (Fortune 500)
+  - Déploiement on-premise, cloud ou hybride selon les besoins
+  - TotalAgility : plateforme IDP complète avec RPA intégrée
+  - OmniPage : SDK intégrable dans applications propriétaires
+  - 200+ langues reconnues
+  - Connecteurs enterprise (ERP, ECM, BPM) nombreux et stables
+  - SLA et support enterprise garanti
+- **Inconvénients** :
+  - Produits vieillissants pour certaines lignes (OmniPage)
+  - Interface et architecture moins modernes que les concurrents cloud-native
+  - Coût de licence élevé
+  - Transition vers Tungsten Automation en cours (risque de roadmap)
+- **Ordre de prix** :
+  - OmniPage Ultimate (desktop) : ~500 $/an
+  - TotalAgility / Capture : sur devis (plusieurs dizaines de milliers d'euros/an)
+- **Liens sources** :
+  - Site officiel : https://www.tungstenautomation.com/
+  - OmniPage : https://www.tungstenautomation.com/products/omnipage
+
+---
+
+### 15. Reducto
+
+- **Éditeur** : Reducto (USA, startup)
+- **Type** : Cloud (API)
+- **Description** : API de parsing documentaire de nouvelle génération, créée pour des pipelines LLM/RAG haute précision. Se distingue par une restitution exceptionnellement fidèle du layout des documents complexes (multi-colonnes, tableaux imbriqués, formules) et par des performances très compétitives sur les benchmarks récents. Rapidement adoptée par des équipes ML exigeantes.
+- **Précision OCR** :
+  - Parmi les meilleurs scores sur benchmarks de parsing documentaire (concurrence directe avec Mistral OCR et LlamaParse sur certains types de documents)
+  - Reconstruction très précise des tableaux complexes avec fusions de cellules
+  - Restitution fidèle des headers/footers, notes de bas de page, multi-colonnes
+  - Gestion correcte des formules mathématiques
+- **Avantages clés** :
+  - Précision de parsing parmi les meilleures du marché
+  - Output Markdown/JSON structuré de très haute qualité
+  - API REST simple et performante
+  - Latence très faible comparée aux concurrents
+  - Gestion des images dans les PDF
+  - Actif dans la communauté LLM/RAG (feedback rapide)
+- **Inconvénients** :
+  - Startup jeune — garanties de pérennité moindres
+  - Cloud uniquement
+  - Documentation moins complète que les grands acteurs
+  - Support multilingue à confirmer sur langues non-latines
+- **Ordre de prix** :
+  - Voir https://reducto.ai/pricing (tarification par page, plans croissants)
+- **Liens sources** :
+  - Site officiel : https://reducto.ai/
+  - Documentation : https://docs.reducto.ai/
+
+---
+
+### 16. Upstage Document Parse
+
+- **Éditeur** : Upstage AI (Corée du Sud)
+- **Type** : Cloud (API) / On-premise
+- **Description** : API de parsing documentaire d'Upstage, entreprise AI coréenne reconnue pour ses modèles de performance élevée. Document Parse combine OCR avancé, analyse de layout et extraction structurée pour produire un output Markdown/HTML haute fidélité depuis PDF, images et documents bureautiques. Régulièrement classée parmi les meilleures solutions sur les benchmarks de document AI.
+- **Précision OCR** :
+  - Très haute précision sur documents imprimés structurés
+  - Excellente gestion des tableaux et des mises en page complexes
+  - Bonne performance sur documents coréens, japonais, chinois et latins
+  - Scores compétitifs sur OmniDocBench et benchmarks d'extraction structurée
+- **Avantages clés** :
+  - Reconnaissance multilingue forte (langues asiatiques + langues européennes)
+  - Output Markdown/HTML structuré de très haute qualité
+  - Déploiement on-premise disponible pour enterprise
+  - Traitement des tableaux avec structure HTML préservée
+  - SDK Python disponible
+  - Intégration avec l'écosystème Solar (LLM d'Upstage) pour pipelines RAG
+- **Inconvénients** :
+  - Acteur moins connu en Europe/USA que les hyperscalers
+  - Écosystème d'intégrations moins étendu
+  - Documentation principalement en anglais/coréen
+- **Ordre de prix** :
+  - Pay-as-you-go + plans mensuels, voir https://www.upstage.ai/pricing
+  - On-premise : sur devis
+- **Liens sources** :
+  - Site officiel : https://www.upstage.ai/products/document-parse
+  - Documentation API : https://developers.upstage.ai/docs/apis/document-parse
+
+---
+
 ## 📊 Comparatif synthétique
 
 ### Tableau récapitulatif des solutions
@@ -675,11 +894,18 @@ Identifier, évaluer et classer toutes les solutions OCR (Optical Character Reco
 | **EasyOCR** | Open source | 80+ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ | Gratuit | ✅ |
 | **docTR** | Open source | 30+ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ | Gratuit | ✅ |
 | **Nougat** | Open source | 1 (sci.) | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | Gratuit | ✅ |
+| **Mistral OCR** | Cloud/On-prem | 50+ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ~$/page | Partiel |
 | **Google Doc AI** | Cloud | 200+ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ~1,5–30$/1k pages | ❌ |
 | **AWS Textract** | Cloud | limité | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ~1,5–50$/1k pages | ❌ |
 | **Azure Doc Intel** | Cloud/On-prem | 200+ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ~1,5–40$/1k pages | Partiel |
 | **ABBYY FineReader** | On-prem/Cloud | 200+ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | $$$ | ✅ |
 | **Mathpix** | Cloud | sci. | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ~0,004$/img | ❌ |
+| **LlamaParse** | Cloud | 30+ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ~7$/1k pages | ❌ |
+| **Nanonets** | Cloud | 50+ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | $$$ | ❌ |
+| **Rossum** | Cloud/On-prem | 50+ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | $$$$ | Partiel |
+| **Kofax/Tungsten** | On-prem/Cloud | 200+ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | $$$$ | ✅ |
+| **Reducto** | Cloud | 20+ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ~$/page | ❌ |
+| **Upstage Doc Parse** | Cloud/On-prem | 30+ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ~$/page | Partiel |
 | **GPT-4o / Claude** | Cloud | Toutes | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ | $$$$$ | ❌ |
 
 > \* Surya : poids sous licence Open Rail-M (usage commercial restreint pour startups >2M$)
@@ -688,17 +914,19 @@ Identifier, évaluer et classer toutes les solutions OCR (Optical Character Reco
 
 | Critère | Meilleure(s) solution(s) open source | Meilleure(s) solution(s) commerciale(s) |
 |---|---|---|
-| Précision générale | PaddleOCR (VL-1.5), MinerU, Surya | Google Doc AI, Azure Doc Intelligence, ABBYY |
-| Documents dégradés | PaddleOCR (PP-DocLayoutV3) | ABBYY FineReader, Google Doc AI |
-| Tableaux complexes | PaddleOCR (PP-StructureV3), MinerU, Surya | Google Doc AI, AWS Textract, ABBYY |
-| Formules mathématiques | Nougat, Surya, PaddleOCR | Mathpix |
+| Précision générale | PaddleOCR (VL-1.5), MinerU, Surya | **Mistral OCR**, Google Doc AI, Azure Doc Intelligence, ABBYY |
+| Documents dégradés | PaddleOCR (PP-DocLayoutV3) | ABBYY FineReader, Mistral OCR, Google Doc AI |
+| Tableaux complexes | PaddleOCR (PP-StructureV3), MinerU, Surya | **Mistral OCR**, **Reducto**, Google Doc AI, AWS Textract, ABBYY |
+| Formules mathématiques | Nougat, Surya, PaddleOCR | Mathpix, **Mistral OCR** |
 | Manuscrit | TrOCR | ABBYY, Google Doc AI |
-| Multilingue | PaddleOCR (111 langues), MinerU (109) | ABBYY (200+), Google Doc AI (200+) |
-| Scripts non-latins | PaddleOCR, EasyOCR | Google Doc AI, ABBYY |
-| Documents scientifiques | Nougat, MinerU, Surya | Mathpix, Google Doc AI |
-| Vitesse / faible latence | Tesseract, EasyOCR | AWS Textract (async) |
-| On-premise strict | Tesseract, PaddleOCR, MinerU, Surya | ABBYY, Azure Doc Intelligence (container) |
-| Confidentialité | Tous les open source | ABBYY (on-premise), Azure (container) |
+| Multilingue | PaddleOCR (111 langues), MinerU (109) | ABBYY (200+), Google Doc AI (200+), Kofax/Tungsten (200+) |
+| Scripts non-latins | PaddleOCR, EasyOCR | Google Doc AI, ABBYY, Upstage Doc Parse (asiatique) |
+| Documents scientifiques | Nougat, MinerU, Surya | Mathpix, **Mistral OCR**, Google Doc AI |
+| RAG / LLM pipelines | PaddleOCR, MinerU | **LlamaParse**, **Reducto**, Mistral OCR |
+| Factures / AP automation | — | **Rossum**, **Nanonets**, Mindee, ABBYY Vantage |
+| Vitesse / faible latence | Tesseract, EasyOCR | AWS Textract (async), Reducto |
+| On-premise strict | Tesseract, PaddleOCR, MinerU, Surya | ABBYY, Azure Doc Intelligence (container), Kofax/Tungsten, Upstage |
+| Confidentialité | Tous les open source | ABBYY (on-premise), Azure (container), Mistral (self-hosted), Rossum (on-premise) |
 
 ---
 
@@ -720,9 +948,15 @@ Identifier, évaluer et classer toutes les solutions OCR (Optical Character Reco
 
 ### 🥇 Meilleure solution payante
 
-**→ Google Document AI** (pour les projets cloud-native sans contrainte de confidentialité)
+**→ Mistral OCR** (meilleure précision actuelle sur documents complexes mixtes)
 
-**Justification :** Google Document AI offre le meilleur rapport précision/fonctionnalités/intégration du marché cloud, avec des modèles spécialisés par type de document, un support multilingue étendu et une scalabilité maximale. Pour les projets nécessitant on-premise ou confidentialité des données, **ABBYY** reste la référence historique avec 30+ ans d'expertise et une réputation de précision OCR exceptionnelle.
+**Justification :** Lancé en mars 2025 par Mistral AI, Mistral OCR atteint ~94,89% sur OmniDocBench, surpassant tous les services cloud majeurs sur les benchmarks de documents complexes (multi-colonnes, tableaux imbriqués, formules mathématiques). Sa restitution Markdown fidèle, sa capacité multilingue et son option de déploiement on-premise en font la meilleure solution commerciale actuelle pour un usage haute précision. En tant qu'acteur européen, il offre également une conformité RGPD facilitée.
+
+**Pour les projets cloud-native hyperscale :** **Google Document AI** reste la référence avec des modèles spécialisés par type de document, une scalabilité maximale et un support multilingue étendu (200+ langues). Pour les projets nécessitant on-premise ou confidentialité totale, **ABBYY** ou **Kofax/Tungsten Automation** restent des références historiques avec 30+ ans d'expertise.
+
+**Pour les pipelines RAG/LLM :** **LlamaParse** est la solution la plus adoptée dans l'écosystème LLM, avec la meilleure intégration native dans LlamaIndex/LangChain. **Reducto** propose des performances de parsing légèrement supérieures avec une latence très faible.
+
+**Pour la comptabilité fournisseurs (AP automation) :** **Rossum** et **Nanonets** sont les leaders du marché avec des approches cognitives spécialisées sur les factures et documents financiers.
 
 **Pour les documents scientifiques uniquement :** **Mathpix** est sans équivalent commercial pour les formules mathématiques.
 
@@ -739,7 +973,7 @@ Pour un projet haute précision avec contraintes de coût :
 
 Ce stack couvre 95%+ des besoins documentaires avec des performances proches des solutions commerciales, pour un coût d'infrastructure uniquement.
 
-**Pour un compromis cloud abordable :** **Azure AI Document Intelligence** avec containers on-premise offre la flexibilité cloud + on-premise avec fine-tuning et à un prix raisonnable.
+**Pour un compromis cloud abordable :** **Azure AI Document Intelligence** avec containers on-premise offre la flexibilité cloud + on-premise avec fine-tuning et à un prix raisonnable. **LlamaParse** est le meilleur compromis pour les pipelines RAG avec son plan gratuit généreux.
 
 ---
 
@@ -784,6 +1018,8 @@ Ce stack couvre 95%+ des besoins documentaires avec des performances proches des
 - Papers With Code OCR : https://paperswithcode.com/task/optical-character-recognition
 
 ### Solutions commerciales
+- Mistral OCR : https://mistral.ai/news/mistral-ocr
+- Mistral AI Documentation OCR : https://docs.mistral.ai/capabilities/document/
 - Google Document AI : https://cloud.google.com/document-ai/docs
 - Google Cloud Vision API : https://cloud.google.com/vision/docs/ocr
 - AWS Textract : https://aws.amazon.com/textract/
@@ -793,6 +1029,12 @@ Ce stack couvre 95%+ des besoins documentaires avec des performances proches des
 - Mathpix : https://mathpix.com/
 - Mindee : https://www.mindee.com/
 - Datalab.to (Surya API) : https://www.datalab.to
+- LlamaParse : https://www.llamaindex.ai/llamaparse
+- Nanonets : https://nanonets.com/
+- Rossum : https://rossum.ai/
+- Kofax / Tungsten Automation : https://www.tungstenautomation.com/
+- Reducto : https://reducto.ai/
+- Upstage Document Parse : https://www.upstage.ai/products/document-parse
 
 ### GitHub Topics de référence
 - OCR topic GitHub : https://github.com/topics/ocr
